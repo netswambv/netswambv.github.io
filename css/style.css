@@ -1,0 +1,49 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    background-color: purple;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: green;
+    color: yellow;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: cyan 3px solid
+}
+header a{
+    color: blue
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: gray;
+    font-weight: bold;
+}
