@@ -2,20 +2,24 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     padding: 0;
-    background-color: purple;
+    background-color: rgb(155, 155, 168);
 
 }
+.box {
+    height: 100%;
+    width: 100%;
+}
 .container{
-    width: 80%;
+    width: 65%;
     margin: auto;
     overflow: hidden;
 }
 header {
-    background: green;
-    color: yellow;
+    background: whitesmoke;
+    color: rgb(165, 165, 0);
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: cyan 3px solid
+    border-bottom:black 3px solid
 }
 header a{
     color: blue
@@ -46,4 +50,9 @@ header nav{
 header .highlight, header .current a{
     color: gray;
     font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
